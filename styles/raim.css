@@ -1,0 +1,36 @@
+.portfolio {
+    background-color: #f0f0f0;
+}
+
+.portfolio-items {
+    display: flex;
+
+    gap: 30px;
+}
+
+.portfolio .item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.portfolio .item #rrr {
+    width: 120%;
+    height: 100%;
+
+}
+#rt{
+    margin-left: 10%;
+    padding: 0%;}
+.portfolio .item h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}

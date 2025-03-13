@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:  #f0f0f0;
+}
+
+.navbar {
+    padding: 10px 20px;
+
+
+}
+
+.about, .contact {
+    background-color: #fff;
+
+}
+.about, h2{
+    margin-bottom: 5%;
+}
+
+.portfolio {
+    background-color: #f0f0f0;
+}
+
+.portfolio-items {
+    display: flex;
+
+    gap: 30px;
+}
+
+.portfolio .item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.portfolio .item #rrr {
+    width: 120%;
+    height: 100%;
+
+}
+#rt{
+    margin-left: 10%;
+    padding: 0%;}
+.portfolio .item h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    color: #273849;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .welcome-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Mono One';
+
+  }
+  
+  .welcome-text h1 {
+    font-size: 3rem;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  .field-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+    
+}
+
+.field {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.field:hover {
+    transform: scale(1.05);
+    background-color: rgb(15, 22, 60);
+    color: gold;
+}
+
+.field.selected {
+    background-color: gold;
+    border-color: #d4af37;
+    color: #273849;
+}
+
+.txt2{
+    text-align: center;
+
+}
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+  }
+  .prof{
+    margin-left: 15%;
+    margin-top: 50px;
+  }
+.dropdown{
+    margin-left: 300px;
+}
+#dataForm{
+    margin-left: 15%;
+}
+#message{
+    max-inline-size: 100%;
+}
+
+html{
+    cursor: url(https://www.resizepixel.com/Image/yrhuxltbmgrw/Preview/file.jpg?v=ddeeaa4a-9b97-402d-aa6a-ea912dac8145) , auto ;
+}
+.rap{
+    background-color: #0e0c34;
+    text-align: center;
+    color: #ffffff;
+    padding: 8%;
+    padding-top: 2%;
+    margin-top: 30px;
+}
+.nav-name1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #FFD700; 
+    text-shadow: 0 0 15px #917840;
+}
+.ddd{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.ph{
+    display: inline;
+}
+#asyl{
+    margin-top: 20px;
+}
+.sm{
+    max-width: 30px;
+    margin-left: 5%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-right: 5px;
+}
+.sm:hover{
+    transform: scale(1.1);
+}
+@media(max-width:500px){
+    #message{
+        max-inline-size: 70%;
+    }
+
+
+}
+.field1 {
+    max-inline-size: 50%;
+    text-align: center;
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 4px #1a1a1a;
+    
+}
+
+.porttab{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.per{
+    display: flex;
+    justify-content: center;
+}
+
+.midl {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .midl:hover {
+    background-color: #0056b3;
+  }
+  .midl1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 30%;
+  }
+  
+  .midl1:hover {
+    background-color: #0056b3;
+  }
+  .erosh{
+    max-width: 80px;
+    margin-left: 96%;
+  }
+  @media (max-width: 768px) {
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .portfolio-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+.firstp:hover{
+    transform: scale(1.01);
+}
+.conteinr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navcl{
+    background:  linear-gradient(90deg,  #01254f 50%, #eafaff 200%);
+}
+#raim{
+   color: #f0f0f0;
+   font-size: 30px;
+   font-size: 40px;
+   font-weight: bold;
+   margin: 0;
+   color: #FFD700; 
+   text-shadow: 0 0 15px #917840;
+}
+
+.marbt{
+    margin-bottom: 30px;
+}
+.sums{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 76%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 12%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rap{
+
+    text-align: center;
+    color: #ffffff;
+    padding: 8%;
+    padding-top: 2%;
+    margin-top: 30px;
+}
+.fooot{
+    background:  linear-gradient(90deg,  #01254f 50%, #eafaff 200%);
+    font-size: 40px;
+}
+.nav-name1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    color: #FFD700; 
+    text-shadow: 0 0 15px #917840;
+    font-family: 'Rubik Mono One';
+}
+.ddd{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.ph{
+    display: inline;
+}
+#asyl{
+    margin-top: 20px;
+}
+
+.sm:hover{
+    transform: scale(1.1);
+}
+
+section {
+    padding: 80px 10%;
+}
+.about h2{
+    font-family: "PT Sans", "Arial", sans-serif;
+font-weight: bold;
+font-style: italic;
+text-transform: uppercase;
+}
